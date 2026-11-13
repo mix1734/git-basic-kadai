@@ -1,0 +1,28 @@
+PS C:\Users\himot\Downloads> mkdir git_challenge
+
+    ディレクトリ:C:\Users\himot\Downloads
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026/11/13    16:04                git_challenge
+
+PS C:\Users\himot\Downloads> cd C:\Users\himot\Downloads\git_challenge          
+PS C:\Users\himot\Downloads\git_challenge> git init                                             
+Initialized empty Git repository in C:/Users/himot/Downloads/git_challenge/.git/
+PS C:\Users\himot\Downloads\git_challenge> git add hello_world.txt
+PS C:\Users\himot\Downloads\git_challenge> git commit -m "hello_world.txtを追加"                
+[main (root-commit) 71aeab2] hello_world.txtを追加
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\himot\Downloads\git_challenge> git rm C:\Users\himot\Downloads\git_kadai\git_challenge
+fatal: Invalid path 'C:/Users/himot/Downloads/git_kadai': No such file or directory
+PS C:\Users\himot\Downloads\git_challenge> git add hello_world.txt                                
+PS C:\Users\himot\Downloads\git_challenge> git status             
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\himot\Downloads\git_challenge> git commit -m "日本語訳を追記"       
+[main 67c494f] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
